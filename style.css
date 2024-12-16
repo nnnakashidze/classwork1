@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5e1ef;
+}
+.firstclass {
+  width: 304px;
+
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ffff;
+}
+.title {
+  font-weight: bold;
+  width: 128px;
+  padding-top: 24px;
+  padding-left: 24px;
+  font-family: #1a202c;
+}
+.carimage {
+  width: 232px;
+  height: 72px;
+  margin-top: 86px;
+}
+.info {
+  display: flex;
+  margin-top: 66px;
+  justify-content: space-between;
+  color: #90a3bf;
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 66px;
+}
+.price {
+  font-weight: bold;
+  color: #1a202c;
+  font-size: 20px;
+}
+.rentbutton {
+  background-color: #3563e9;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+.rentbutton:hover {
+  background-color: #3563e9;
+}
+.secondclass {
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  margin: 0 auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  align-items: center;
+}
